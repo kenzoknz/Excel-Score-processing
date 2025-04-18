@@ -55,5 +55,4 @@ def process_score_data(input_file, output_file):
 
     result.to_excel(output_file, index=False)
 
-# Sử dụng hàm
 process_score_data('input.xlsx', 'output.xlsx') # cac file input va output
